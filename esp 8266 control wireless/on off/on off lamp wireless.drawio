@@ -1,0 +1,263 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="nRmU-6TbAK197tIRDsQJ">
+    <mxGraphModel dx="1134" dy="1749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LS5sVyPK41t1iygKrSER-2" value="Inisialisasi Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="489" y="119" width="237" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-3" value="Inisialisasi Pin LED sebagai Output" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="483" y="217" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-4" value="Menghubungkan ke WiFi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="491" y="334" width="232" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-5" value="WiFi Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="525" y="455" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-6" value="Tampilkan Alamat IP di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="495" y="693" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-7" value="Mengatur Halaman Web dan URL untuk PWM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="492" y="809" width="230" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-8" value="Memulai Web Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="504" y="925" width="207" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" target="LS5sVyPK41t1iygKrSER-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="607" y="59" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-2" target="LS5sVyPK41t1iygKrSER-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-3" target="LS5sVyPK41t1iygKrSER-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=0.99;entryX=0.41;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-4" target="LS5sVyPK41t1iygKrSER-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="586" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-21" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0;entryX=0.54;entryY=0.99;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-5" target="LS5sVyPK41t1iygKrSER-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="628" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-22" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-5" target="LS5sVyPK41t1iygKrSER-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-6" target="LS5sVyPK41t1iygKrSER-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-7" target="LS5sVyPK41t1iygKrSER-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="608" y="1024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-38" value="Mulai Program" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="548" y="-20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-39" value="Mulai Program" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="596" y="1980" width="162" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-40" value="Inisialisasi Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="558" y="2079" width="237" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-41" value="Inisialisasi Pin LED sebagai Output" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="553" y="2177" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-42" value="Menghubungkan ke WiFi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="561" y="2294" width="232" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-43" value="WiFi Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="595" y="2415" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-44" value="Tampilkan Alamat IP di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="2653" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-45" value="Mengatur Halaman Web dan URL untuk Kontrol PWM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="547" y="2769" width="260" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-46" value="Memulai Web Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="574" y="2885" width="207" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-47" value="Loop: Apakah Ada Permintaan dari Klien?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="563" y="2984" width="228" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-48" value="Permintaan URL adalah setPWM?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="374" y="3284" width="232" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-49" value="Ambil Nilai PWM dari URL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3681" width="244" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-50" value="Terapkan PWM ke LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="152" y="3903" width="217" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-51" value="Permintaan URL adalah root?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="727" y="3589" width="232" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-52" value="Tampilkan Halaman Kontrol LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="790" y="3894" width="257" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-53" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="656" y="3400" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-54" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="677" y="3705" as="geometry" />
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-39" target="LS5sVyPK41t1iygKrSER-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-40" target="LS5sVyPK41t1iygKrSER-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-57" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-41" target="LS5sVyPK41t1iygKrSER-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-58" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.46;exitY=0.99;entryX=0.41;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-42" target="LS5sVyPK41t1iygKrSER-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="2379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-59" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0;entryX=0.54;entryY=0.99;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-43" target="LS5sVyPK41t1iygKrSER-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="698" y="2379" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-60" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-43" target="LS5sVyPK41t1iygKrSER-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-61" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-44" target="LS5sVyPK41t1iygKrSER-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-62" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-45" target="LS5sVyPK41t1iygKrSER-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-63" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-46" target="LS5sVyPK41t1iygKrSER-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-64" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.43;exitY=1;entryX=Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-47" target="LS5sVyPK41t1iygKrSER-53">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="3248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-65" value="Tidak" style="curved=1;startArrow=none;endArrow=none;exitX=Infinity;exitY=Infinity;entryX=Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-53" target="LS5sVyPK41t1iygKrSER-54">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="656" y="3553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=Infinity;exitY=Infinity;entryX=0.71;entryY=1;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-54" target="LS5sVyPK41t1iygKrSER-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="739" y="3553" />
+              <mxPoint x="739" y="3248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-67" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.9;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-47" target="LS5sVyPK41t1iygKrSER-48">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="3248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-68" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-48" target="LS5sVyPK41t1iygKrSER-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="3553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-69" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.37;entryY=-0.01;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-49" target="LS5sVyPK41t1iygKrSER-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="182" y="3858" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-70" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=-0.01;entryX=0;entryY=0.72;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-50" target="LS5sVyPK41t1iygKrSER-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="339" y="3858" />
+              <mxPoint x="339" y="3248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-71" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-48" target="LS5sVyPK41t1iygKrSER-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="781" y="3553" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-72" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-51" target="LS5sVyPK41t1iygKrSER-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="843" y="3858" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=1;entryY=0.73;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-52" target="LS5sVyPK41t1iygKrSER-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="994" y="3858" />
+              <mxPoint x="994" y="3248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LS5sVyPK41t1iygKrSER-74" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=1;entryY=0.84;rounded=0;" edge="1" parent="1" source="LS5sVyPK41t1iygKrSER-51" target="LS5sVyPK41t1iygKrSER-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="898" y="3553" />
+              <mxPoint x="898" y="3248" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Page-1" id="Kah3ivLSKhz28_Ci4OpO">
+    <mxGraphModel dx="794" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AiOaWGaugNueamBDLGYa-2" value="Inisialisasi Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="518" y="119" width="237" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-3" value="Inisialisasi Pin LED sebagai Output" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="513" y="217" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-4" value="Menghubungkan ke WiFi" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="521" y="334" width="232" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-5" value="WiFi Terhubung?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="555" y="455" width="165" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-6" value="Tampilkan Alamat IP di Serial Monitor" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="525" y="693" width="224" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-7" value="Mengatur Halaman Web dan URL untuk Kontrol PWM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="507" y="809" width="260" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-8" value="Memulai Web Server" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="534" y="925" width="207" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-9" value="Loop: Apakah Ada Permintaan dari Klien?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="523" y="1024" width="228" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-10" value="Permintaan URL adalah setPWM?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="334" y="1324" width="232" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-11" value="Ambil Nilai PWM dari URL" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1721" width="244" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-12" value="Terapkan PWM ke LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="112" y="1943" width="217" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-13" value="Permintaan URL adalah root?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="687" y="1629" width="232" height="232" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-14" value="Tampilkan Halaman Kontrol LED" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1934" width="257" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-15" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="616" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-16" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="637" y="1745" as="geometry" />
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" target="AiOaWGaugNueamBDLGYa-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="637" y="69" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-2" target="AiOaWGaugNueamBDLGYa-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-3" target="AiOaWGaugNueamBDLGYa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.46;exitY=0.99;entryX=0.41;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-4" target="AiOaWGaugNueamBDLGYa-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-21" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.59;exitY=0;entryX=0.54;entryY=0.99;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-5" target="AiOaWGaugNueamBDLGYa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="419" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-22" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-5" target="AiOaWGaugNueamBDLGYa-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-6" target="AiOaWGaugNueamBDLGYa-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-7" target="AiOaWGaugNueamBDLGYa-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-8" target="AiOaWGaugNueamBDLGYa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-26" value="" style="curved=1;startArrow=none;endArrow=none;exitX=0.43;exitY=1;entryX=Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-9" target="AiOaWGaugNueamBDLGYa-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-27" value="Tidak" style="curved=1;startArrow=none;endArrow=none;exitX=Infinity;exitY=Infinity;entryX=Infinity;entryY=Infinity;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-15" target="AiOaWGaugNueamBDLGYa-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="616" y="1593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=Infinity;exitY=Infinity;entryX=0.71;entryY=1;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-16" target="AiOaWGaugNueamBDLGYa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="699" y="1593" />
+              <mxPoint x="699" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-29" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.9;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-9" target="AiOaWGaugNueamBDLGYa-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-30" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-10" target="AiOaWGaugNueamBDLGYa-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="1593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-31" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.37;entryY=-0.01;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-11" target="AiOaWGaugNueamBDLGYa-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="142" y="1898" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.63;exitY=-0.01;entryX=0;entryY=0.72;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-12" target="AiOaWGaugNueamBDLGYa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="299" y="1898" />
+              <mxPoint x="299" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-33" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.3;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-10" target="AiOaWGaugNueamBDLGYa-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="741" y="1593" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-34" value="Ya" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.36;entryY=0;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-13" target="AiOaWGaugNueamBDLGYa-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="1898" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=1;entryY=0.73;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-14" target="AiOaWGaugNueamBDLGYa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="954" y="1898" />
+              <mxPoint x="954" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-36" value="Tidak" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=0;entryX=1;entryY=0.84;rounded=0;" edge="1" parent="1" source="AiOaWGaugNueamBDLGYa-13" target="AiOaWGaugNueamBDLGYa-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="858" y="1593" />
+              <mxPoint x="858" y="1288" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AiOaWGaugNueamBDLGYa-37" value="Mulai Program" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="577" y="-10" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
